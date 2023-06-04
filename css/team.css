@@ -1,5 +1,5 @@
 .team-carousel {
     background-image: url("../img/background-team-carousel.webp");
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
