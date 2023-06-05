@@ -2,6 +2,19 @@
     background-image: url("../img/background-team-carousel.webp");
     padding-top: 90px;
     padding-bottom: 90px;
+    background-size: cover;
+    max-width: 1175px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.team-carousel__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    flex: 1;
 }
 
 .team-carousel__title {
@@ -28,12 +41,49 @@
 .team-carousel__subtitle {
     color: var(--alternative-dark-text);
     font-family: "Rajdhani", sans-serif;
-    font-size: 14px;
+    font-size: 38px;
     font-weight: bold;
     font-stretch: 100%;
     text-align: center;
+    margin: auto;
+    ;
 }
 
-.team-carousel__box {
+.team-carousel__span {
+    color: var(--accent-text-color);
+}
+
+.team-carousel__container .carousel__track {
     display: flex;
+    flex-direction: row;
+}
+
+.team-carousel__container .carousel__image {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    max-height: 750px;
+    object-fit: cover;
+    margin: auto;
+
+
+}
+
+.team-carousel__container .carousel__caption {
+    font-family: "Roboto", sans-serif;
+    color: var(--header-background-color);
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: 100%;
+    text-align: center;
+    opacity: 0.6;
+    padding: 10% 20%;
+    background-color: var(--main-white-color);
+    margin-bottom: auto;
+}
+
+
+.team-carousel__container .carousel__slide {
+    display: flex;
+    flex-direction: column;
 }
